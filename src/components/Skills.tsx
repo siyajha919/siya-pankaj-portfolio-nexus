@@ -3,7 +3,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Languages",
-      skills: ["Python", "JavaScript (ES6+)", "TypeScript", "C++"],
+      skills: ["Python", "JavaScript (ES6+)", "TypeScript", "C++", "SQL"],
       color: "from-blue-500 to-purple-500"
     },
     {
@@ -22,19 +22,34 @@ const Skills = () => {
       color: "from-red-500 to-pink-500"
     },
     {
-      title: "ML Tools",
-      skills: ["scikit-learn", "NumPy", "Pandas", "Matplotlib"],
+      title: "ML/Data Science",
+      skills: ["scikit-learn", "NumPy", "Pandas", "Matplotlib", "TensorFlow"],
       color: "from-purple-500 to-indigo-500"
     },
     {
-      title: "Dev & Cloud",
+      title: "Analytics Tools",
+      skills: ["Power BI", "Excel", "PowerPoint"],
+      color: "from-orange-500 to-red-500"
+    },
+    {
+      title: "Development Tools",
       skills: ["Git", "Docker", "Postman", "Firebase", "Vercel", "Netlify", "Render"],
       color: "from-teal-500 to-cyan-500"
+    },
+    {
+      title: "Platforms & IDEs",
+      skills: ["Jupyter Notebook", "Visual Studio Code"],
+      color: "from-indigo-500 to-blue-500"
     },
     {
       title: "Core Concepts",
       skills: ["REST APIs", "MVC", "Responsive Design", "DSA", "Agile", "ML Workflows"],
       color: "from-pink-500 to-rose-500"
+    },
+    {
+      title: "Soft Skills",
+      skills: ["People Management", "Excellent Communication", "Leadership", "Team Collaboration"],
+      color: "from-violet-500 to-purple-500"
     }
   ];
 

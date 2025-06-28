@@ -6,7 +6,7 @@ const Certifications = () => {
     { title: "Career Essentials in Data Analysis", issuer: "Microsoft & LinkedIn", color: "from-purple-500 to-purple-600" },
     { title: "Prompt Engineering", issuer: "Let's Upgrade", color: "from-yellow-500 to-orange-500" },
     { title: "JavaScript", issuer: "Let's Upgrade", color: "from-red-500 to-pink-500" },
-    { title: "Data Visualization: Empowering Business with Insight", issuer: "Certification Body", color: "from-teal-500 to-cyan-500" },
+    { title: "Data Visualization: Empowering Business with Insight", issuer: "Tata Forge", color: "from-teal-500 to-cyan-500" },
     { title: "Generative AI", issuer: "NVIDIA", color: "from-indigo-500 to-purple-500" }
   ];
 
