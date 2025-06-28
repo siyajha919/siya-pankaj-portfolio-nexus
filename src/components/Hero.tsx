@@ -1,4 +1,3 @@
-
 import { ArrowDown, Github, Linkedin, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -14,14 +13,14 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center px-4 pt-16">
       <div className="max-w-6xl mx-auto text-center">
         <div className="mb-8 relative">
-          <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-purple-500/50 shadow-2xl">
+          <div className="w-64 h-80 mx-auto rounded-2xl overflow-hidden border-4 border-purple-500/50 shadow-2xl">
             <img
               src="/lovable-uploads/ec3ed9ba-0054-48d5-a3a8-2629ee494635.png"
               alt="Siya Pankaj"
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-purple-500/20 to-pink-500/20 blur-3xl"></div>
+          <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-purple-500/20 to-pink-500/20 blur-3xl"></div>
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
